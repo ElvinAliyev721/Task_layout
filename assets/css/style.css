@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+#head_fix{
+    position: fixed;
+    width: 100%;
+}
+.nav_header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_header .all_ul{
+    display: flex;
+    list-style-type: none;
+}
+.for_more{
+    display: none;
+}
+.hd_more:hover .for_more{
+    display: block !important;
+}
+.bg-image{
+    background-image: url();
+}
+.d-flex{
+    display: flex;
+}
+.bg-red{
+    background-color: red;
+}
